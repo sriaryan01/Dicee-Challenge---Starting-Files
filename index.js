@@ -46,3 +46,12 @@ else if(randomNumber1=randomNumber2)
     {
         document.querySelector("h1").innerHTML="Draw 😳 "
     }
+
+
+    const refreshBtn = document.getElementById("btnRefresh");
+
+function handleClick() {
+  window.location.reload();
+}
+
+refreshBtn.addEventListener("click", handleClick);
